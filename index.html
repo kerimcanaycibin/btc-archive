@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BTC Archive is a personal tool for archiving owner-selected research data in Google Drive.">
+  <title>BTC Archive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav aria-label="Main navigation"><a href="./" aria-current="page">BTC Archive</a><a href="privacy.html">Privacy policy</a></nav>
+    <header><p class="eyebrow">Personal data archiving</p><h1>BTC Archive</h1><p class="lead">A personal tool for preserving owner-selected market research data in Google Drive.</p></header>
+    <section><h2>What the application does</h2><p>BTC Archive uses rclone and archive scripts to upload selected archive files, record integrity information, and download files for verification, recovery, or owner-authorized analysis. It is operated by <a href="https://github.com/kerimcanaycibin">kerimcanaycibin</a> for personal use.</p><p>The application is being configured. Archive automation is enabled separately after authorization and verification checks.</p></section>
+    <section><h2>Google Drive access</h2><p>The application requests the <code>drive.file</code> permission. This allows access to files it creates and files the owner explicitly makes available to the application. It does not request general access to every file in the owner's Drive.</p><p>Google authorization is used by the local or server-side archive tool. This website does not collect Google credentials or provide access to archive contents.</p></section>
+    <section><h2>Owner control</h2><p>The owner chooses the data to archive and can revoke Google account access. The configured archive workflow does not automatically delete original source data or remote archives.</p><p>Read the <a href="privacy.html">privacy policy</a> for details about access, storage, retention, and deletion.</p></section>
+    <section><h2>Contact</h2><p>For non-sensitive questions, contact the operator through the <a href="https://github.com/kerimcanaycibin/btc-archive/issues">project issue tracker</a>. Do not post archive data, credentials, tokens, or account information in a public issue.</p></section>
+    <footer>BTC Archive · Personal application · <a href="privacy.html">Privacy policy</a></footer>
+  </main>
+</body>
+</html>
